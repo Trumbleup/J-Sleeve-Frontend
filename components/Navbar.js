@@ -5,7 +5,7 @@ const Navbar = () => (
 		<nav className="navbar" role="navigation" aria-label="main navigation">
 		  <div className="navbar-brand">
 		    <a className="navbar-item" href="https://bulma.io">
-		      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+		      <img src="../static/jsleeve logo.png" width="50" height="50" />
 		    </a>
 		    <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 		      <span aria-hidden="true"></span>
@@ -17,24 +17,18 @@ const Navbar = () => (
 		    <div className="navbar-start">
 		      <Link href='/'><a className="navbar-item">Home</a></Link>
 		      <Link href='/individual_hoopers'><a className="navbar-item">Individual Hoopers</a></Link>
+		      <Link href='/athletic_departments'><a className="navbar-item">Athletic Departments</a></Link>
+		      <Link href='/request_demo'><a className="navbar-item">Request Demo</a></Link>
 		      <div className="navbar-item has-dropdown is-hoverable">
 		        <a className="navbar-link">
-		          More
+		          Learn More
 		        </a>
 		        <div className="navbar-dropdown">
-		          <a className="navbar-item">
-		            About
-		          </a>
-		          <a className="navbar-item">
-		            Jobs
-		          </a>
-		          <a className="navbar-item">
-		            Contact
-		          </a>
+		          <Link href='/about_us'><a className="navbar-item">About Us</a></Link>
+		          <Link href='/media'><a className="navbar-item">Media</a></Link>
+		          <Link href='/how_does_it_work'><a className="navbar-item">How Does It Work?</a></Link>
 		          <hr className="navbar-divider" />
-		          <a className="navbar-item">
-		            Report an issue
-		          </a>
+		          <Link href='/request_demo'><a className="navbar-item">Request Demo</a></Link>
 		        </div>
 		      </div>
 		    </div>

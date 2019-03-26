@@ -1,13 +1,11 @@
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 
 
 const Index = () => (
   <Layout>
 	  <div>
-	  	<h1>Welcome to J-Sleeve!</h1>
-	  	<div className="block">
-	  		<button className="button">Button</button>
-	  	</div>
+	  	<Header />
 	  </div>
   </Layout>
 );
