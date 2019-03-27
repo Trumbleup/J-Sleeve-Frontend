@@ -4,9 +4,9 @@ const Navbar = () => (
 	<div>
 		<nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 		  <div className="navbar-brand">
-		    <a className="navbar-item" href="https://bulma.io">
+		    <Link href='/'><a className="navbar-item" href="">
 		      <img src="../static/jsleeve logo.png" width="50" height="50" />
-		    </a>
+		    </a></Link>
 		    <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 		      <span aria-hidden="true"></span>
 		      <span aria-hidden="true"></span>
@@ -41,6 +41,7 @@ const Navbar = () => (
 		          <a className="button is-light">
 		            Log in
 		          </a>
+		          <i class="fas fa-shopping-cart"></i>
 		        </div>
 		      </div>
 		    </div>

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Header = () => (
 	<div>
 		<div id='home-header'>
@@ -6,7 +8,7 @@ const Header = () => (
 					<h1>Introducing J-Sleeve</h1>
 					<h2>Strive To Be Great</h2>
 					<div class="buttons are-medium">
-					  <a class="button is-link">Shop Now</a>
+					  <Link href='/products'><a class="button is-link">Shop Now</a></Link>
 					  <a class="button is-info">Learn More</a>
 					</div>
 				</div>

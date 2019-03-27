@@ -9,6 +9,7 @@ const Footer = () => (
 		</footer>
 		<style jsx> {`
 			.footer {
+				margin-top: 50px;
 				background-color: gray;
 			}
 		`}</style>
