@@ -2,8 +2,13 @@ const Header = () => (
 	<div>
 		<div id='home-header'>
 			<div className="hero-image">
-				<div className="hero-text">
-					<h1>J-Sleeve</h1>
+				<div className="hero-text text-container">
+					<h1>Introducing J-Sleeve</h1>
+					<h2>Strive To Be Great</h2>
+					<div class="buttons are-medium">
+					  <a class="button is-link">Shop Now</a>
+					  <a class="button is-info">Learn More</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -22,11 +27,26 @@ const Header = () => (
 			.hero-text {
 				text-align: center;
 				position: absolute;
-				top: 50%;
-				left: 50%;
+				top: 40%;
+				left: 20%;
 				transform: translate(-50%, -50%);
 				color: white;
-				font-size: 40px;
+			}
+			.text-container {
+				height: 30%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+			h1 {
+				font-size: 50px;
+			}
+			h2 {
+				font-size: 30px;
+				text-align: left;
+			}
+			.button {
+				font-size: 30px;
 			}
 		`}</style>
 	</div>

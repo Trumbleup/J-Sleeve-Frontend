@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => (
 	<div>
-		<nav className="navbar" role="navigation" aria-label="main navigation">
+		<nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 		  <div className="navbar-brand">
 		    <a className="navbar-item" href="https://bulma.io">
 		      <img src="../static/jsleeve logo.png" width="50" height="50" />
