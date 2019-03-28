@@ -41,7 +41,7 @@ const Navbar = () => (
 		          <a className="button is-light">
 		            Log in
 		          </a>
-		          <i class="fas fa-shopping-cart"></i>
+		          <i className="fas fa-shopping-cart"></i>
 		        </div>
 		      </div>
 		    </div>

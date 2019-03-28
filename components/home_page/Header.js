@@ -7,9 +7,9 @@ const Header = () => (
 				<div className="hero-text text-container">
 					<h1>Introducing J-Sleeve</h1>
 					<h2>Strive To Be Great</h2>
-					<div class="buttons are-medium">
-					  <Link href='/products'><a class="button is-link">Shop Now</a></Link>
-					  <a class="button is-info">Learn More</a>
+					<div className="buttons are-medium">
+					  <Link href='/products'><a className="button is-link">Shop Now</a></Link>
+					  <a className="button is-info">Learn More</a>
 					</div>
 				</div>
 			</div>

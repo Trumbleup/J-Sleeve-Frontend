@@ -6,12 +6,10 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
-    "bootstrap": "^4.3.1",
     "bulma": "^0.7.4",
     "next": "^8.0.3",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
-    "react-bulma-components": "^2.3.0",
     "react-dom": "^16.8.5",
     "reactstrap": "^7.1.0"
   },
@@ -21,7 +19,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start -p 3000",
     "heroku-postbuild": "next build"
   },
   "keywords": [],

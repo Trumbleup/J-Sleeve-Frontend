@@ -2,7 +2,7 @@ const MainVideo = () => (
 	<div>
 		<section className="section">
 			<div className="container video-container">
-				<a class="button is-large">Play Video</a>
+				<a className="button is-large">Play Video</a>
 			</div>
 		</section>
 		<style jsx> {`
