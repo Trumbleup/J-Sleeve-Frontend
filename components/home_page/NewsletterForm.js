@@ -16,40 +16,49 @@ class NewsletterForm extends React.Component {
 	render(){
 		return(
 			<div>
-				<div className='newsletter-container'>
-					<h1>STAY UP TO DATE</h1>
-					<p>Sign up to get our newsletter for all the latest news, shows, and events</p>
-					<div className='field'>
-						<div className='control'>
-							<input onChange={this.handleChange} className='input' type='text' placeholder='Email Address'/>
-						</div>
-						<div class="control">
-						  <button class="button is-primary">Submit</button>
+				<div className='wrapper'>
+					<div className='newsletter-container'>
+						<h1>STAY UP TO DATE</h1>
+						<p>Sign up to get our newsletter for all the latest news, shows, and events</p>
+						<div className='field'>
+							<div className='control'>
+								<input onChange={this.handleChange} className='input is-medium' type='text' placeholder='Email Address'/>
+							</div>
+							<div className="control">
+							  <button className="button is-primary is-medium">Submit</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<style jsx>{`
+					.wrapper {
+						width: 100%;
+						display: flex;
+						justify-content: center;
+					}
 					.newsletter-container {
 						display: flex;
 						flex-direction: column;
 						justify-content: center;
 						align-items: center;
-						margin-left: auto;
-						margin-right: auto;
-						width: 500px;
-						height: 250px;
+						max-width: 1000px;
+						height: 100px;
+						padding: 20px;
 					}
 					h1 {
-						font-size: 30px;
-						padding: 10px;
+						font-size: 50px;
 					}
 					p {
-						padding: 10px;
 						white-space: nowrap;
+						font-size: 20px;
 					}
 					.field {
 						display: flex;
 						flex-direction: row;
+						margin: 10px;
+					}
+					input {
+						width: 400px;
 					}
 					`}</style>
 			</div>

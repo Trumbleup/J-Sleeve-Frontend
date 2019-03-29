@@ -1,26 +1,28 @@
+import Link from 'next/link';
+
 const Card = () => (
 	<div>
 		<div className="tile is-ancestor">
 		    <div className="tile is-6 is-vertical is-parent">
-		    	<div className='tile is-child box shop-tile'>
+		    	<Link href='/products'><div className='tile is-child box shop-tile'>
 		    		<img src='../../static/black-shirt.png'></img>
 		    		<img src='../../static/gray-shirt.png'></img>
 		    		<img src='../../static/tank.png'></img>
 		    		<p>Shop J-Sleeve</p>
-		    	</div>
-		    	<div className='tile is-child box mobile-app-tile'>
+		    	</div></Link>
+		    	<Link href=''><div className='tile is-child box mobile-app-tile'>
 		    		<h2>J-Sleeve Mobile App</h2>
 		    		<p>Pre-order the J-Sleeve App today!</p>
 		    		<img src='../../static/phone.png'></img>
-		    	</div>
+		    	</div></Link>
 		    </div>
 		    <div className="tile is-6 is-vertical is-parent">
-		    	<div className='tile is-child box how-does-it-work-tile'>
+		    	<Link href='/how_does_it_work'><div className='tile is-child box how-does-it-work-tile'>
 		    		<p>How Does it Work?</p>	
-		    	</div>
-		    	<div className='tile is-child box learn-more-tile'>
+		    	</div></Link>
+		    	<Link href='/Learn More'><div className='tile is-child box learn-more-tile'>
 		    		<p>Learn More</p>	
-		    	</div>
+		    	</div></Link>
 		    </div>
 		</div>
 		<style jsx> {`
@@ -28,6 +30,9 @@ const Card = () => (
 	  			display: block;
 	  			margin-left: auto;
 	  			margin-right: auto;
+	  		}
+	  		.tile {
+	  			cursor: pointer
 	  		}
 	  		.shop-tile {
 	  			display: flex;

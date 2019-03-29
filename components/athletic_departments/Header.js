@@ -2,21 +2,21 @@ import Link from 'next/link';
 
 const Header = () => (
 	<div>
-		<div id='home-header'>
+		<div id='hoopers-header'>
 			<div className="hero-image">
 				<div className="hero-text text-container">
-					<h1>Introducing J-Sleeve</h1>
-					<h2>Strive To Be Great</h2>
+					<h1>Athletic Departments</h1>
+					{/*<h2>How J-Sleeve Benefits You</h2>
 					<div className="buttons are-medium">
 					  <Link href='/products'><a className="button is-link">Shop Now</a></Link>
 					  <a className="button is-info">Learn More</a>
-					</div>
+					</div>*/}
 				</div>
 			</div>
 		</div>
 		<style jsx> {`
-			#home-header {
-				height: 600px
+			#hoopers-header {
+				height: 400px
 			}
 			.hero-image {
 				background-image: url("../static/basketball.png");
