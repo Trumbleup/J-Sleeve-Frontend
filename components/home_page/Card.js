@@ -5,9 +5,11 @@ const Card = () => (
 		<div className="tile is-ancestor">
 		    <div className="tile is-6 is-vertical is-parent">
 		    	<Link href='/products'><div className='tile is-child box shop-tile'>
-		    		<img src='../../static/black-shirt.png'></img>
-		    		<img src='../../static/gray-shirt.png'></img>
-		    		<img src='../../static/tank.png'></img>
+		    		<div className='shirts-container'>
+			    		<img src='../../static/black-shirt.png'></img>
+			    		<img src='../../static/gray-shirt.png'></img>
+			    		<img src='../../static/tank.png'></img>
+		    		</div>
 		    		<p>Shop J-Sleeve</p>
 		    	</div></Link>
 		    	<Link href=''><div className='tile is-child box mobile-app-tile'>
@@ -35,10 +37,17 @@ const Card = () => (
 	  			cursor: pointer
 	  		}
 	  		.shop-tile {
-	  			display: flex;
-	  			flex-direction: row;
 	  			position: relative;
 	  			background-color: black
+	  		}
+	  		.shirts-container {
+	  			width: 100%;
+	  			height: auto;
+	  			display: flex;
+	  			flex-direction: row;
+	  		}
+	  		.shirts-container img {
+	  			
 	  		}
 	  		.shop-tile p {
 	  			position: absolute;

@@ -62,7 +62,7 @@ class DemoForm extends React.Component {
 							  <div className="control">
 							    <input onChange={this.handleChange} className="input" type="text" name='location' placeholder="Text input"/>
 							  </div>
-							  <a className="button is-large is-fullwidth is-outlined">Submit</a>
+							  <a className="button is-large is-primary is-fullwidth">Submit</a>
 							</div>
 						</form>
 					</div>
@@ -81,7 +81,6 @@ class DemoForm extends React.Component {
 					}
 					.button {
 						margin-top: 30px;
-						background-color: #F8A631;
 					}
 					`}</style>
 			</div>

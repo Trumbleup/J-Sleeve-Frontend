@@ -19,20 +19,18 @@ const Header = () => (
 				height: 400px
 			}
 			.hero-image {
+				display: flex;
+				align-items: center;
 				background-image: url("../static/basketball.png");
 				height: 100%;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: cover;
-				position: relative;
 			}
 			.hero-text {
 				text-align: center;
-				position: absolute;
-				top: 50%;
-				left: 20%;
-				transform: translate(-50%, -50%);
 				color: white;
+				padding: 20px;
 			}
 			.text-container {
 				height: 30%;

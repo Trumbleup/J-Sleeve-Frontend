@@ -18,7 +18,7 @@ class NewsletterForm extends React.Component {
 			<div>
 				<div className='wrapper'>
 					<div className='newsletter-container'>
-						<h1>STAY UP TO DATE</h1>
+						<h1>Subscribe To Our NewsLetter</h1>
 						<p>Sign up to get our newsletter for all the latest news, shows, and events</p>
 						<div className='field'>
 							<div className='control'>
@@ -35,6 +35,7 @@ class NewsletterForm extends React.Component {
 						width: 100%;
 						display: flex;
 						justify-content: center;
+						padding: 100px;
 					}
 					.newsletter-container {
 						display: flex;
@@ -43,10 +44,9 @@ class NewsletterForm extends React.Component {
 						align-items: center;
 						max-width: 1000px;
 						height: 100px;
-						padding: 20px;
 					}
 					h1 {
-						font-size: 50px;
+						font-size: 60px;
 					}
 					p {
 						white-space: nowrap;

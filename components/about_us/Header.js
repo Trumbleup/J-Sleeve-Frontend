@@ -5,12 +5,7 @@ const Header = () => (
 		<div id='hoopers-header'>
 			<div className="hero-image">
 				<div className="hero-text text-container">
-					<h1>Individual Hoopers</h1>
-					{/*<h2>How J-Sleeve Benefits You</h2>
-					<div className="buttons are-medium">
-					  <Link href='/products'><a className="button is-link">Shop Now</a></Link>
-					  <a className="button is-info">Learn More</a>
-					</div>*/}
+					<h1>About Us</h1>
 				</div>
 			</div>
 		</div>
@@ -20,6 +15,7 @@ const Header = () => (
 			}
 			.hero-image {
 				display: flex;
+				justify-content: center;
 				align-items: center;
 				background-image: url("../static/basketball.png");
 				height: 100%;
