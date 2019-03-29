@@ -15,10 +15,10 @@ const Navbar = () => (
 		  </div>
 		  <div id="navbarBasicExample" className="navbar-menu">
 		    <div className="navbar-start">
-		      <Link href='/'><a className="navbar-item">Home</a></Link>
+		      <Link href='/products'><a className="navbar-item">Shop</a></Link>
+		      <Link href='/request_demo'><a className="navbar-item">Request Demo</a></Link>
 		      <Link href='/individual_hoopers'><a className="navbar-item">Individual Hoopers</a></Link>
 		      <Link href='/athletic_departments'><a className="navbar-item">Athletic Departments</a></Link>
-		      <Link href='/request_demo'><a className="navbar-item">Request Demo</a></Link>
 		      <div className="navbar-item has-dropdown is-hoverable">
 		        <a className="navbar-link">
 		          Learn More
